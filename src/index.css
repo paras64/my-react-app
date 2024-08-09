@@ -1,0 +1,124 @@
+/* .Card{
+  border: 1px solid rgb(226, 232, 233);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 10%, 67%);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.Card .card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+
+
+}
+
+.Card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: black;
+}
+
+.Card card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 45%);
+} */
+
+/* .list-category{
+  text-align: center;
+  font-size: 2.5em;
+  color: hsl(60, 68%, 28%);
+  background-color: hsl(225, 31%, 80%);
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.list-item li{
+  text-align: center;
+  font-size: 2em;
+
+}
+.list-item li:hover{
+  color: blueviolet;
+  cursor: pointer;
+} */
+body{
+  background-color: black;
+}
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+
+}
+h1{
+  font-size: 4rem;
+}
+button{
+  font-weight: bold;
+  font-size: larger;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+.add-button{
+  background-color: hsl(0, 79%, 35%);
+}
+.add-button:hover{
+  background-color: hsl(39, 58%, 55%);
+}
+.delete-button{
+background-color: hsl(60, 22%, 75%);
+}
+.delete-button:hover{
+  background-color: hsl(39, 41%, 13%);
+}
+.move-button{
+  background-color: hsl(240, 41%, 37%);
+
+}
+.move-button:hover{
+  background-color: hsl(45, 60%, 41%);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 82%, 0.5);
+  border-radius: 5px;
+  color: hsl(0, 90%, 19%) 
+}
+
+ol{
+  padding: 0px;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 3px solid grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+
+}
